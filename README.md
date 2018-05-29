@@ -1,33 +1,32 @@
-java-client
+blockcypher-java-client
 ===========
-
 Java SDK for BlockCypher
 
-<!--Maven
+Getting started
 -----
-Add this to your POM:
+```
+$ git clone https://github.com/LarryAhn/blockcypher-java-client
+$ cd blockcypher-java-client
+$ ./mvn-install.sh
+```
 
-```xml
-    <dependencies>
-        <dependency>
-            <groupId>com.blockcypher</groupId>
-            <artifactId>java-client</artifactId>
-            <version>0.1.2</version>
-        </dependency>
-    </dependencies>
+Gradle
+-----
+```
 
-    <repositories>
-        <repository>
-            <id>BlockCypher Maven Repo</id>
-            <url>https://raw.github.com/blockcypher/java-client/mvn-repo/</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </repository>
-    </repositories>
-```	
--->
+```
+
+Maven
+-----
+```
+
+```
+
+Using Spring Framework
+-----
+```java
+
+```
 
 Transaction Example
 -----
