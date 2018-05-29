@@ -13,13 +13,27 @@ $ ./mvn-install.sh
 Gradle
 -----
 ```
+repositories {
+    mavenCentral()
+    mavenLocal() // <- *
+}
 
+
+dependencies {
+    compile group: 'com.blockcypher', name: 'blockcypher-java-client', version:'0.1.2-SNAPSHOT'
+}
 ```
 
 Maven
 -----
 ```
-
+<dependencies>
+    <dependency>
+        <groupId>com.blockcypher</groupId>
+        <artifactId>blockcypher-java-client</artifactId>
+        <version>0.1.2-SNAPSHOT</version>
+    </dependency>
+<dependencies>
 ```
 
 Using Spring Framework
